@@ -5,16 +5,12 @@ on:
       - "release/**"
     paths:
       - 'src/**'
-      - 'docs/**'
-      - '.github/workflows/push-pr.yml'
   pull_request:
     branches:
       - main
       - "release/**"
     paths:
       - 'src/**'
-      - 'docs/**'
-      - '.github/workflows/push-pr.yml'
 jobs:
   test:
     runs-on: ubuntu-latest
